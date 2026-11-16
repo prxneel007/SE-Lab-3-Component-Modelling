@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1560" viewBox="0 0 2400 1560" font-family="Helvetica, Arial, sans-serif">
+<style>
+.st{font-size:17px;text-anchor:middle;fill:#444}
+.nm{font-size:21px;font-weight:bold;text-anchor:middle;fill:#111}
+.pk{font-size:19px;font-weight:bold;fill:#222}
+.if{font-size:19px;font-weight:bold;fill:#0B3D91}
+.pr{font-size:16px;font-style:italic;fill:#555}
+.ln{stroke:#333;stroke-width:2.2}
+.ttl{font-size:32px;font-weight:bold;text-anchor:middle}
+.sub{font-size:18px;text-anchor:middle;fill:#555}
+.lg{font-size:17px;fill:#222}
+</style>
+<rect width="2400" height="1560" fill="white"/>
+<text x="1200.0" y="48" class="ttl">Self-Service Coffee Kiosk — UML Component Diagram (Layered Architecture)</text>
+<text x="1200.0" y="78" class="sub">Chirra Yuktha Praneel · PES2UG24AM049 · SE Lab 3</text>
+<rect x="500" y="100" width="228" height="30" fill="#EAF2FB" stroke="#555" stroke-width="1.5"/>
+<text x="512" y="121" class="pk">Presentation Layer</text>
+<rect x="500" y="130" width="1080" height="230" fill="#EAF2FB" stroke="#555" stroke-width="1.5"/>
+<rect x="150" y="460" width="250" height="30" fill="#EEF7EE" stroke="#555" stroke-width="1.5"/>
+<text x="162" y="481" class="pk">Business Logic Layer</text>
+<rect x="150" y="490" width="2100" height="520" fill="#EEF7EE" stroke="#555" stroke-width="1.5"/>
+<rect x="150" y="1100" width="140" height="30" fill="#F6EEF8" stroke="#555" stroke-width="1.5"/>
+<text x="162" y="1121" class="pk">Data Layer</text>
+<rect x="150" y="1130" width="760" height="300" fill="#F6EEF8" stroke="#555" stroke-width="1.5"/>
+<rect x="940" y="1100" width="228" height="30" fill="#F3F3F3" stroke="#555" stroke-width="1.5"/>
+<text x="952" y="1121" class="pk">Devices &amp; External</text>
+<rect x="940" y="1130" width="1310" height="300" fill="#F3F3F3" stroke="#555" stroke-width="1.5"/>
+<rect x="1035.0" y="180.0" width="330" height="130" rx="4" fill="#FFF7D6" stroke="#333" stroke-width="2"/>
+<rect x="1327.0" y="192.0" width="24" height="30" fill="#FFF7D6" stroke="#333" stroke-width="1.5"/>
+<rect x="1320.0" y="198.0" width="14" height="7" fill="#FFF7D6" stroke="#333" stroke-width="1.5"/>
+<rect x="1320.0" y="210.0" width="14" height="7" fill="#FFF7D6" stroke="#333" stroke-width="1.5"/>
+<text x="1200" y="235" class="st">«component»</text>
+<text x="1200" y="263" class="nm">Touch Screen UI</text>
+<rect x="1035.0" y="535.0" width="330" height="130" rx="4" fill="#FFF7D6" stroke="#333" stroke-width="2"/>
+<rect x="1327.0" y="547.0" width="24" height="30" fill="#FFF7D6" stroke="#333" stroke-width="1.5"/>
+<rect x="1320.0" y="553.0" width="14" height="7" fill="#FFF7D6" stroke="#333" stroke-width="1.5"/>
+<rect x="1320.0" y="565.0" width="14" height="7" fill="#FFF7D6" stroke="#333" stroke-width="1.5"/>
+<text x="1200" y="590" class="st">«component»</text>
+<text x="1200" y="618" class="nm">Order Manager</text>
+<rect x="285.0" y="535.0" width="330" height="130" rx="4" fill="#FFF7D6" stroke="#333" stroke-width="2"/>
+<rect x="577.0" y="547.0" width="24" height="30" fill="#FFF7D6" stroke="#333" stroke-width="1.5"/>
+<rect x="570.0" y="553.0" width="14" height="7" fill="#FFF7D6" stroke="#333" stroke-width="1.5"/>
+<rect x="570.0" y="565.0" width="14" height="7" fill="#FFF7D6" stroke="#333" stroke-width="1.5"/>
+<text x="450" y="590" class="st">«component»</text>
+<text x="450" y="618" class="nm">Menu &amp; Pricing</text>
+<text x="450" y="642" class="nm">Service</text>
+<rect x="1785.0" y="535.0" width="330" height="130" rx="4" fill="#FFF7D6" stroke="#333" stroke-width="2"/>
+<rect x="2077.0" y="547.0" width="24" height="30" fill="#FFF7D6" stroke="#333" stroke-width="1.5"/>
+<rect x="2070.0" y="553.0" width="14" height="7" fill="#FFF7D6" stroke="#333" stroke-width="1.5"/>
+<rect x="2070.0" y="565.0" width="14" height="7" fill="#FFF7D6" stroke="#333" stroke-width="1.5"/>
+<text x="1950" y="590" class="st">«component»</text>
+<text x="1950" y="618" class="nm">Payment Service</text>
+<rect x="1035.0" y="815.0" width="330" height="130" rx="4" fill="#FFF7D6" stroke="#333" stroke-width="2"/>
+<rect x="1327.0" y="827.0" width="24" height="30" fill="#FFF7D6" stroke="#333" stroke-width="1.5"/>
+<rect x="1320.0" y="833.0" width="14" height="7" fill="#FFF7D6" stroke="#333" stroke-width="1.5"/>
+<rect x="1320.0" y="845.0" width="14" height="7" fill="#FFF7D6" stroke="#333" stroke-width="1.5"/>
+<text x="1200" y="870" class="st">«component»</text>
+<text x="1200" y="898" class="nm">Receipt Printer</text>
+<text x="1200" y="922" class="nm">Service</text>
+<rect x="285.0" y="1215.0" width="330" height="130" rx="4" fill="#FFF7D6" stroke="#333" stroke-width="2"/>
+<rect x="577.0" y="1227.0" width="24" height="30" fill="#FFF7D6" stroke="#333" stroke-width="1.5"/>
+<rect x="570.0" y="1233.0" width="14" height="7" fill="#FFF7D6" stroke="#333" stroke-width="1.5"/>
+<rect x="570.0" y="1245.0" width="14" height="7" fill="#FFF7D6" stroke="#333" stroke-width="1.5"/>
+<text x="450" y="1270" class="st">«component»</text>
+<text x="450" y="1298" class="nm">Database</text>
+<rect x="1035.0" y="1215.0" width="330" height="130" rx="4" fill="#FFF7D6" stroke="#333" stroke-width="2"/>
+<rect x="1327.0" y="1227.0" width="24" height="30" fill="#FFF7D6" stroke="#333" stroke-width="1.5"/>
+<rect x="1320.0" y="1233.0" width="14" height="7" fill="#FFF7D6" stroke="#333" stroke-width="1.5"/>
+<rect x="1320.0" y="1245.0" width="14" height="7" fill="#FFF7D6" stroke="#333" stroke-width="1.5"/>
+<text x="1200" y="1270" class="st">«device»</text>
+<text x="1200" y="1298" class="nm">Thermal Receipt</text>
+<text x="1200" y="1322" class="nm">Printer</text>
+<rect x="1785.0" y="1215.0" width="330" height="130" rx="4" fill="#FFF7D6" stroke="#333" stroke-width="2"/>
+<rect x="2077.0" y="1227.0" width="24" height="30" fill="#FFF7D6" stroke="#333" stroke-width="1.5"/>
+<rect x="2070.0" y="1233.0" width="14" height="7" fill="#FFF7D6" stroke="#333" stroke-width="1.5"/>
+<rect x="2070.0" y="1245.0" width="14" height="7" fill="#FFF7D6" stroke="#333" stroke-width="1.5"/>
+<text x="1950" y="1270" class="st">«external»</text>
+<text x="1950" y="1298" class="nm">Card Payment</text>
+<text x="1950" y="1322" class="nm">Gateway</text>
+<line x1="1035.0" y1="245" x2="965.0" y2="245" class="ln"/>
+<circle cx="952.0" cy="245" r="13" fill="white" stroke="#333" stroke-width="2.2"/>
+<text x="930.0" y="237" class="if" text-anchor="end">ITouchInput</text>
+<text x="930.0" y="259" class="pr" text-anchor="end">customer taps (touch events)</text>
+<line x1="1200" y1="535.0" x2="1200" y2="410" class="ln"/>
+<path d="M 1178 410 A 22 22 0 0 1 1222 410" fill="none" stroke="#333" stroke-width="2.2"/>
+<line x1="1200" y1="388" x2="1200" y2="310.0" class="ln"/>
+<circle cx="1200" cy="410" r="13" fill="white" stroke="#333" stroke-width="2.2"/>
+<text x="1235" y="400" class="if" text-anchor="start">IOrder</text>
+<text x="1235" y="422" class="pr" text-anchor="start">API call: placeOrder(), getTotal()</text>
+<line x1="615.0" y1="600" x2="825" y2="600" class="ln"/>
+<path d="M 825 578 A 22 22 0 0 1 825 622" fill="none" stroke="#333" stroke-width="2.2"/>
+<line x1="847" y1="600" x2="1035.0" y2="600" class="ln"/>
+<circle cx="825" cy="600" r="13" fill="white" stroke="#333" stroke-width="2.2"/>
+<text x="825" y="532" class="if" text-anchor="middle">IMenu</text>
+<text x="825" y="554" class="pr" text-anchor="middle">API call: getItems(), getPrice()</text>
+<line x1="1785.0" y1="600" x2="1575" y2="600" class="ln"/>
+<path d="M 1575 622 A 22 22 0 0 1 1575 578" fill="none" stroke="#333" stroke-width="2.2"/>
+<line x1="1553" y1="600" x2="1365.0" y2="600" class="ln"/>
+<circle cx="1575" cy="600" r="13" fill="white" stroke="#333" stroke-width="2.2"/>
+<text x="1575" y="532" class="if" text-anchor="middle">IPayment</text>
+<text x="1575" y="554" class="pr" text-anchor="middle">API call: charge(card, amount)</text>
+<line x1="1200" y1="815.0" x2="1200" y2="740" class="ln"/>
+<path d="M 1178 740 A 22 22 0 0 1 1222 740" fill="none" stroke="#333" stroke-width="2.2"/>
+<line x1="1200" y1="718" x2="1200" y2="665.0" class="ln"/>
+<circle cx="1200" cy="740" r="13" fill="white" stroke="#333" stroke-width="2.2"/>
+<text x="1235" y="745" class="if" text-anchor="start">IReceipt</text>
+<text x="1235" y="767" class="pr" text-anchor="start">API call: printReceipt(order)</text>
+<line x1="450" y1="1215.0" x2="450" y2="1070" class="ln"/>
+<path d="M 428 1070 A 22 22 0 0 1 472 1070" fill="none" stroke="#333" stroke-width="2.2"/>
+<line x1="450" y1="1048" x2="450" y2="665.0" class="ln"/>
+<circle cx="450" cy="1070" r="13" fill="white" stroke="#333" stroke-width="2.2"/>
+<text x="415" y="1065" class="if" text-anchor="end">IDataAccess</text>
+<text x="415" y="1087" class="pr" text-anchor="end">DB queries: SQL (menu, prices, orders)</text>
+<line x1="1200" y1="1215.0" x2="1200" y2="1070" class="ln"/>
+<path d="M 1178 1070 A 22 22 0 0 1 1222 1070" fill="none" stroke="#333" stroke-width="2.2"/>
+<line x1="1200" y1="1048" x2="1200" y2="945.0" class="ln"/>
+<circle cx="1200" cy="1070" r="13" fill="white" stroke="#333" stroke-width="2.2"/>
+<text x="1235" y="1065" class="if" text-anchor="start">IPrinterDriver</text>
+<text x="1235" y="1087" class="pr" text-anchor="start">hardware interface: USB / ESC-POS</text>
+<line x1="1950" y1="1215.0" x2="1950" y2="1070" class="ln"/>
+<path d="M 1928 1070 A 22 22 0 0 1 1972 1070" fill="none" stroke="#333" stroke-width="2.2"/>
+<line x1="1950" y1="1048" x2="1950" y2="665.0" class="ln"/>
+<circle cx="1950" cy="1070" r="13" fill="white" stroke="#333" stroke-width="2.2"/>
+<text x="1985" y="1065" class="if" text-anchor="start">ICardGateway</text>
+<text x="1985" y="1087" class="pr" text-anchor="start">HTTPS / TLS (tokenised card data)</text>
+<path d="M 1035.0 640 L 760 640 L 760 1185 L 615.0 1240" fill="none" stroke="#333" stroke-width="2" stroke-dasharray="10,7"/>
+<path d="M 615.0 1240 l 14 -14 M 615.0 1240 l 19 6" stroke="#333" stroke-width="2"/>
+<text x="770" y="900" class="pr">«use»  saveOrder()</text>
+<circle cx="162" cy="1480" r="11" fill="white" stroke="#333" stroke-width="2"/><text x="184" y="1486" class="lg">Provided interface (ball)</text>
+<path d="M 480 1464 A 16 16 0 0 0 480 1496" fill="none" stroke="#333" stroke-width="2"/><text x="496" y="1486" class="lg">Required interface (socket)</text>
+<line x1="790" y1="1480" x2="850" y2="1480" stroke="#333" stroke-width="2" stroke-dasharray="10,7"/><text x="862" y="1486" class="lg">«use» dependency</text>
+<text x="1080" y="1486" class="lg">Solid lines = internal service communication · labels give protocol/technology</text>
+</svg>
